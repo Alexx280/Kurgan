@@ -5,15 +5,16 @@
 
 html, body {
     height: 100%;
-    overflow: hidden;
+    /*overflow: hidden;-*/
 }
 
 body {
-    background-image: url(pic/Logo2.png);
-    background-size: contain;
+    /*background-image: url(pic/Logo2.png);
+    /*background-size: contain;*/
     background-position: top;
     background-repeat: no-repeat;
     color: #ffffff;
+
 }
 
 .wrapper {
@@ -22,32 +23,53 @@ body {
     width: 100%;
 }
 
-/*текущее дата и время*/
-#doc_time {
-    color: black;
-    text-align: center;
-    width: 100%;
-    position: absolute;
-
-    left: 0;
-    bottom: 0;
-    height: 35px;
-    margin-bottom: -140px;
-}
-
-.content {
-    position: absolute;
-    width: 100%;
-    /*box-sizing: border-box;*/
+#main {
+    position: inherit;
+    top: 400px;
+    margin: 0 auto;
+    /*box-sizing: border-box;
     /*min-height: 100%;*/
-    /*width: 100%;*/
-    padding-bottom: 90px;
+    background-color: #f5e79e;
+    font-family: arial;
+    width: 1000px;
+    text-align: center;
     /*margin: 0 auto;*/
 }
+#menu, #calc,#articles {
+    position: relative;
+    top: 10px;
+    background-color: #f5e79e;
+    height: 400px;
+    padding: 20px;
+    border-radius: 15px;
+}
 
+#menu {
+    width: 15%;
+}
+
+#calc {
+    width: 25%;
+}
+
+#articles {
+      width: 59%;
+}
+.button-menu{
+    position: inherit;
+    height: 50px;
+    width: 100px;
+    /*background-color: #a6e1ec;*/
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Anton', sans-serif;
+    color: darkolivegreen;
+    margin: auto;
+    padding-top: 10px;
+}
 /*Заголовок на первой странице*/
 #inner {
-    position: relative;
+    position: inherit;
     top: 25px;
     padding-bottom: 30px;
     width: 100%;
@@ -64,6 +86,22 @@ body {
     margin: 0 auto;
 }
 
+.centr{
+    box-sizing: border-box;
+    display: inline-table;
+
+}
+.pocentru {
+    /*position:absolute;*/
+    margin: auto;
+    background-color: forestgreen;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 1px 1px 10px black;
+    border: 1px solid #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
 /*стрелочка на первой сранице учебной части*/
 
 #edu #arrow {
@@ -111,7 +149,7 @@ body {
     margin-left: -295px; /* Отрицательный отступ от левого края страницы, должен равняться половине высоты блока со знаком минус */
 }
 
-#centr, #quest, #edu {
+#centr, #quest, #edu, .pocentru {
     /*position:absolute;*/
     margin: auto;
     background-color: forestgreen;
