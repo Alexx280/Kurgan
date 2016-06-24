@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    /*overflow: hidden;-*/
+}
+
+body {
+    background-image: url(pic/img8.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+body  h3 {
+    color: #ffffff;
+    font-size: 2.5em;
+    text-shadow: 1px 2px 3px #080808;
+    text-align: center;
+}
+.fon {
+    background-color: darkslategray;
+    opacity: 0.9;
+    width: 100%;
+    height: 1500px;
+    z-index: 1;
+}
+.zagolovok {
+    position: relative;
+    display: block;
+    top: 100px;
+    width: 950px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.zagolovok h3 {
+    display: table-row;
+}
+.menu{
+    position: fixed;
+    top:0;
+    display: inline-block;
+    margin: 0 auto;
+    background-color: #39B3D7;
+    z-index: 20;
+
+}
+.button-menu{
+    position: relative;
+    width:240px;
+    display: table-cell;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.3em;
+    vertical-align: middle;
+}
+
+.main {
+    position: absolute;
+    display: block;
+    top: 300px;
+    width: 600px;
+    left: 50%;
+    z-index: 2;
+    color: #ffffff;
+    margin-left: -300px;
+    text-align: center;
+    font-size:1.6em;
+}
+
+.tel {
+    font-size: 20px;
+    text-shadow: 1px 3px 3px black;
+}
+
+.discount {
+    position: absolute;
+    top: 170px;
+    height: 150px;
+    width: 250px;
+    background-color: #dea568;
+    border: 3px red solid;
+    vertical-align: middle;
+    text-align: center;
+    color:blue;
+    font-weight: bold;
+    display: none;
+    left:50%;
+    margin-left: -125px;
+    z-index: 9;
+    opacity: 1;
+}
+.discount div{
+    margin-top: 35px;
+    vertical-align: middle;
+}
+.vision {
+    display: block;
+}
+.button-menu:last-child {
+    width: 140px;
+}
+.button-menu:nth-child(6) {
+    width: 270px;
+}
+.not_a:hover {
+    background-color: #f5f5f5;
+    color:lightseagreen;
+    cursor: pointer;
+}
+h3:last-child {
+    width: 840px;
+
+}
+.chto_vozim {
+    border: 1px solid black;
+    position: relative;
+    top:600px;
+    width: 100%;
+    margin: 130px auto 0 auto;
+    background-color: #333333;
+    font-size: 20px;
+    z-index: 0;
+    padding-top: 15px;
+    max-height: 800px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+.articles{
+    display: table-cell;
+    width: 33%;
+    padding: 10px;
+}
+.articles h4{
+    text-align: center;
+    font-size: 22px;
+}
+.nash_price {
+    position: relative;
+    top:600px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #416A8A;
+    font-size: 20px;
+    z-index: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.nash_price  p{
+    text-align: center;
+}
+.nash_price  div{
+    width:350px;
+    position: inherit;
+    left:50%;
+    margin-left:-150px;
+    display: inline-block;
+
+}
+.contact {
+    position: relative;
+    margin: 0 auto;
+    font-size: 22px;
+    padding-top: 30px;
+}
+.articles p{
+    text-align: justify;
+}
+.footer {
+    position: relative;
+    top:600px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: darkolivegreen;
+    font-size: 18px;
+    z-index: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid black;
+    text-align: center;
+}
+.gm-info {
+    position: relative;
+    top: 350px;
+    left: calc(100% - 250px);
+}
+.button-close {
+    background-color: lightgreen;
+    display: inline-block;
+    color: #080808;
+    font-weight: bold;
+    position: relative;
+    top: auto;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+}
