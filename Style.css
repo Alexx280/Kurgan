@@ -28,7 +28,7 @@ body  h3 {
     background-color: darkslategray;
     opacity: 0.9;
     width: 100%;
-    height: 1500px;
+    height: 1000px;
     z-index: 1;
 }
 .zagolovok {
@@ -125,7 +125,7 @@ h3:last-child {
     position: relative;
     top:600px;
     width: 100%;
-    margin: 130px auto 0 auto;
+    margin: -40px auto 0 auto;
     background-color: #333333;
     font-size: 20px;
     z-index: 0;
@@ -173,7 +173,7 @@ h3:last-child {
     padding-top: 30px;
 }
 .articles p{
-    text-align: justify;
+    /*text-align: justify;*/
 }
 .footer {
     position: relative;
