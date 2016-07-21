@@ -135,6 +135,9 @@ h3:last-child {
     text-overflow: ellipsis;
     -o-text-overflow: ellipsis;
 }
+.art {
+    font-size: 18px;
+}
 .articles{
     display: table-cell;
     width: 33%;
